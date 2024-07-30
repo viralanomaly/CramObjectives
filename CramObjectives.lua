@@ -14,7 +14,6 @@ function CO:OnInitialize()
         CODB.hide = true
     end
 
-
     CO:RegisterChatCommand("ram", "SlashCommand")
     CO:RegisterChatCommand("cram", "SlashCommand")
 end
@@ -33,19 +32,11 @@ end
 
 function CO:OnEnable()
     CO:Print("OnEnable")
-    -- CO:RegisterEvent("ZONE_CHANGED")
 
     if CODB.hide == true then
         SetupHooks()
         OTF:Hide()
     end
-    
-    -- WorldMapFrame:HookScript("OnHide", function ()
-    --     HideTrackerIfEnabled()
-    -- end)
-    -- ObjectiveTrackerFrame:HookScript("OnShow", function ()
-    --     HideTrackerIfEnabled()
-    -- end)
 
 end
 
