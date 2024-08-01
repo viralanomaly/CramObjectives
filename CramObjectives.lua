@@ -55,7 +55,7 @@ function CO:SlashCommand(msg)
                 OTF:Hide()
                 SetupHooks()
             elseif OTF.IsVisible then
-                OTF:Hide(
+                OTF:Hide()
             else
                 CO:Print("Already hidden")
             end
