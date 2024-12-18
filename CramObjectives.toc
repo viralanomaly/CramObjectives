@@ -1,5 +1,5 @@
-## Interface: 110000
-## Version: 0.0.3
+## Interface: 110007
+## Version: 0.0.4
 ## Title: CramObjectives
 ## Notes: Hide Objective Frame until it is unhidden
 ## Author: ViralAnomaly
